@@ -79,7 +79,7 @@ function deleteAccount(id: string) {
     </div>
 
     <div
-        v-for="(account, index) in accounts"
+        v-for="account in accounts"
         :key="account.id"
         class="grid grid-cols-[2fr_1fr_2fr_2fr_auto] gap-4 items-center mb-4"
     >
